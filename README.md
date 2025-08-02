@@ -1,11 +1,12 @@
 # 🧮 Simple Web Calculator
 
-A lightweight, fully functional calculator built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates how to handle basic arithmetic operations in a responsive and interactive web UI.
+A lightweight, fully functional , responsive calculator built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates how to handle basic arithmetic operations in a responsive and interactive web UI.
 
 ---
 ## 📸 Screenshots
 ![1404-05-11 18 05 01](https://github.com/user-attachments/assets/028a6829-47c8-48b4-a4ac-7504d3a36637)
-![1404-05-11 18 05 05](https://github.com/user-attachments/assets/72ee2ea9-2c3f-403e-934c-db886524cb8c)
+
+<img width="2079" height="1366" alt="Screenshot 1404-05-11 at 18 06 29" src="https://github.com/user-attachments/assets/8d49d7fa-cf39-4695-b7c9-74d330cd1c92" />
 
 
 
