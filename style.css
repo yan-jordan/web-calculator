@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Text:ital@0;1&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "DM Serif Text", serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-color: #1e1e1e;
+    height: 100%;
+    width: 100%; 
+}
+
+.operations{
+    margin: 0px;
+    border-color: black;
+    padding: 0px;
+}
+.numbers{
+    margin: 0px;
+    border-color: black;
+    padding: 0px;
+}
+.button-numbers{
+    width: 100%;
+    background-color: #bbbcbe;
+    color: black;
+    cursor: pointer;
+}
+.button-operations{
+    width: 100%;
+    background-color: #ea8519;
+    color: white;
+    cursor: pointer;
+}
+.button-operations:hover{
+    background-color:#dfb07e ;
+}
+.button-numbers:hover{
+    background-color:rgb(235, 234, 234) ;
+}
+.display{
+    grid-area:display;
+    color: white;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;     /* vertical center */
+    font-size: 38px;
+    
+}
+.clear{
+    grid-area:clear;
+}
+.arrow{
+    grid-area:arrow;
+}
+.addition{
+    grid-area:addition;
+}
+.subtraction{
+    grid-area:subtraction;
+}
+.multiplication{
+    grid-area:multiplication;
+}
+.division{
+    grid-area:division;
+}
+.zero{
+    grid-area:zero;
+}
+.one{
+    grid-area:one;
+}
+.two{
+    grid-area:two;
+}
+.three{
+    grid-area:three;
+}
+.five{
+    grid-area:five;
+}
+.six{
+    grid-area:six;
+}
+.seven{
+    grid-area:seven;
+}
+.eight{
+    grid-area:eight;
+}
+.nine{
+    grid-area:nine;
+}
+.equal{
+    grid-area:equal;
+}
+.calculator-buttons{
+    display: grid;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "clear clear arrow division"
+    "seven eight nine multiplication"
+    "four five six subtraction"
+    "one two three addition"
+    'zero zero zero equal'
+    ;
+    height: 80%;
+    width: 100%;
+}
